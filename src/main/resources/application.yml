@@ -1,8 +1,9 @@
 spring:
-  application:    name: config
+  application:
+    name: config
        
 server:
-  port: 9998
+  port: 8888
   
 ---
 spring:
@@ -35,9 +36,6 @@ eureka:
   client:
     service-url:
       defaultZone: ${EUREKA_URL}
-  instance:
-    lease-expiration-duration-in-seconds: 2
-    lease-renewal-interval-in-seconds: 1
   
 ---
 spring:
@@ -52,16 +50,4 @@ eureka:
   client:
     service-url:
       defaultZone: ${EUREKA_URL}
-  instance:
-    lease-expiration-duration-in-seconds: 2
-    lease-renewal-interval-in-seconds: 1
-  
-
-
-
-  
-          
-      
-
-
 
