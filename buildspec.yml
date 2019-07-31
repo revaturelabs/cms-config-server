@@ -1,4 +1,6 @@
 version: 0.2
+
+this would not be valid
  
 phases:
   install:
